@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#01579B"
+    tools:context="com.example.nikit.helloandroid.MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:src="@drawable/uandroid"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#03A9F4"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textSize="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="Udacity" />
+
+    <TextView
+        android:background="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="2465 Latham St" />
+
+    <TextView
+        android:background="#03A9F4"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textSize="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:text="Mountain View, CA 94043" />
+
+    <TextView
+        android:background="#03A9F4"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:text="650-555-5555"
+        />
+
+</LinearLayout>
